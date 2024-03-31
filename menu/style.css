@@ -1,0 +1,27 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background: #808080;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+}
+
+.menu img{
+    width: 100px;
+}
+
+.menu label{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.menu:hover{
+    background: #5e5e5e;
+}
