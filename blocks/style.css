@@ -1,0 +1,73 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
+.first{
+    width: 400px;
+    height: 200px;  
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 30px;
+    line-height: 200px;
+}
+.second{
+    width: 400px;
+    height: 200px;  
+    text-align: center;
+    background-color: aliceblue;
+    background-image: url(./5be5afb9e5d78166f9366e55.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.third{
+    width: 400px;
+    height: 200px;  
+    text-align: center;
+    background-color: aliceblue;
+    background-image: url(./5be5afb9e5d78166f9366e55.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.fourth{
+    width: 400px;
+    height: 200px;  
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 30px;
+    line-height: 200px;
+}
+.fifth{
+    width: 400px;
+    height: 200px;  
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    line-height: 200px;
+}
+.sixth{
+    width: 400px;
+    height: 200px;  
+    text-align: center;
+    background-color: aliceblue;
+    background-image: url(./5be5afb9e5d78166f9366e55.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.first:hover,.second:hover,.third:hover,.fourth:hover,.fifth:hover,.sixth:hover{
+    filter: brightness(.6);
+    transform: scale(1.1);
+    transition: 1s linear ;
+}
+
+.first:hover,.second:hover,.third:hover,.fourth:hover,.fifth:hover,.sixth:hover{
+    filter: brightness(.6);
+    transition: all .3s linear;
+}
